@@ -113,7 +113,6 @@ function stopSimulation() {
     drawLines();
     needleCounter = 0;
     hits = 0;
-    console.log(misses);
 }
 
 window.onload = function () {
