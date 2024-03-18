@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- For BootStrap icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Estimate π by using needles</title>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <div class="container-fluid mt-4">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-5">
+                <canvas id="canvas"></canvas>
+            </div>
+            <div class="col-md-5">
+                <div class="row d-flex justify-content-around">
+                    <button type="button" class="btn btn-outline-success my-2 my-sm-0 mr-sm-2 throw">Start Simulation
+                    </button>
+                    <button type="button" class="btn btn-outline-success my-2 my-sm-0 mr-sm-2 clear">Clear
+                    </button>
+                </div>
+                <div class=" p-3 mt-4 card">
+                    <div class="forms col">
+                        <div class="inputs pi">
+                            <label for="noOfPins">Total number of pins:</label>
+                            <input type="text" readonly value="" id="noOfPins">
+                        </div>
+                        <div class="inputs pi">
+                            <label for="noOfHits">Number of pins that crossed the line:</label>
+                            <input type="text" readonly value="" id="noOfHits">
+                        </div>
+                        <div class="inputs pi">
+                            <label for="hitRatio">Hit Ratio:</label>
+                            <input type="text" readonly value="" id="hitRatio">
+                        </div>
+                        <div class="inputs pi">
+                            <label for="calPi">Calulated value of Pi:</label>
+                            <input type="text" readonly value="" id="calPi">
+                        </div>
+                        <div class="inputs pi">
+                            <label for="refPi">Reference value of Pi:</label>
+                            <input type="text" readonly value="" id="refPi">
+                        </div>
+                        <div class="inputs pi">
+                            <label for="perError">Percentage error (%):</label>
+                            <input type="text" readonly value="" id="perError">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+</html>
