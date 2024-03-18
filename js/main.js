@@ -58,7 +58,6 @@ function throwNeedle() {
             }
         }
         drawNeedle(x, y, x1, y1, 'red');
-        // drawNeedle(x, y, theta, yMulipler);
     } else {
         // stop
     }
